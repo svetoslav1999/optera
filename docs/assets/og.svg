@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630">
+      <stop offset="0" stop-color="#070912"/><stop offset="1" stop-color="#04050a"/>
+    </linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#21e1ff"/><stop offset=".5" stop-color="#2f6bff"/><stop offset="1" stop-color="#ff39c0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0" stop-color="#2f6bff" stop-opacity=".25"/><stop offset="1" stop-color="#2f6bff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g transform="translate(96,150)">
+    <circle cx="40" cy="40" r="30" stroke="url(#g)" stroke-width="6" fill="none"/>
+    <circle cx="40" cy="40" r="10" fill="url(#g)"/>
+    <circle cx="70" cy="14" r="6" fill="#21e1ff"/>
+    <circle cx="14" cy="66" r="5" fill="#ff39c0"/>
+    <text x="100" y="56" font-family="Syne,Arial,sans-serif" font-size="56" font-weight="800" fill="#eaf0ff" letter-spacing="-2">OPTERA</text>
+  </g>
+  <text x="96" y="330" font-family="Syne,Arial,sans-serif" font-size="72" font-weight="800" fill="#eaf0ff" letter-spacing="-3">Inteligencia logística</text>
+  <text x="96" y="410" font-family="Syne,Arial,sans-serif" font-size="72" font-weight="800" fill="url(#g)" letter-spacing="-3">impulsada por IA</text>
+  <text x="96" y="480" font-family="Manrope,Arial,sans-serif" font-size="32" fill="#9aa6c7">Mueve todo. Desperdicia nada.</text>
+  <text x="96" y="556" font-family="JetBrains Mono,monospace" font-size="22" fill="#5c6788">Centro de mando · IA predictiva · Replanificación · Simulación</text>
+</svg>

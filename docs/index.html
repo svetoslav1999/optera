@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Optera — Centro de Mando Logístico Impulsado por IA</title>
+
+  <meta name="description" content="Optera transforma las operaciones logísticas con visibilidad en tiempo real, IA predictiva, replanificación autónoma y soporte a la decisión. Mueve todo, desperdicia nada." />
+  <meta name="keywords" content="inteligencia logística, optimización de flotas, optimización de rutas, IA predictiva, transporte inteligente, supply chain intelligence, centro de operaciones, decision intelligence" />
+  <meta name="author" content="Optera" />
+  <meta name="theme-color" content="#04050a" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:site_name" content="Optera" />
+  <meta property="og:title" content="Optera — Inteligencia logística impulsada por IA" />
+  <meta property="og:description" content="Centro de mando logístico con IA: optimización de rutas, IA predictiva, replanificación autónoma y simulación de escenarios. Demo interactiva." />
+  <meta property="og:image" content="assets/og.svg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Optera — Inteligencia logística impulsada por IA" />
+  <meta name="twitter:description" content="Mueve todo, desperdicia nada. Demo interactiva del centro de mando logístico de Optera." />
+  <meta name="twitter:image" content="assets/og.svg" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/icon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="aurora" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav glass" id="nav">
+    <a class="brand" href="#inicio" aria-label="Optera inicio">
+      <svg width="30" height="30" viewBox="0 0 64 64" fill="none" class="brand-mark">
+        <defs>
+          <linearGradient id="og" x1="0" y1="0" x2="64" y2="64">
+            <stop offset="0" stop-color="#21e1ff"/><stop offset=".5" stop-color="#2f6bff"/><stop offset="1" stop-color="#ff39c0"/>
+          </linearGradient>
+        </defs>
+        <circle cx="32" cy="32" r="18" stroke="url(#og)" stroke-width="3.5" fill="none"/>
+        <circle cx="32" cy="32" r="6" fill="url(#og)"/>
+        <circle cx="50" cy="20" r="4" fill="#21e1ff"/>
+        <circle cx="16" cy="46" r="3" fill="#ff39c0"/>
+      </svg>
+      <span class="brand-word">OPTERA</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Principal">
+      <a href="#beneficios" data-i18n="nav.benefits">Beneficios</a>
+      <a href="#modulos" data-i18n="nav.modules">Módulos</a>
+      <a href="#casos" data-i18n="nav.cases">Casos de uso</a>
+      <a href="#centro" data-i18n="nav.center">Centro de Mando</a>
+      <a href="#tecnologia" data-i18n="nav.tech">Tecnología</a>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="lang" role="group" aria-label="Idioma">
+        <button class="lang-btn is-active" data-lang="es" aria-pressed="true">🇪🇸 ES</button>
+        <button class="lang-btn" data-lang="en" aria-pressed="false">🇬🇧 EN</button>
+      </div>
+      <a href="#centro" class="btn btn-primary" data-i18n="nav.cta">Ver demo</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="inicio">
+      <div class="hero-inner">
+        <div class="eyebrow glass" data-i18n="hero.eyebrow">◆ Decision Intelligence para logística</div>
+        <h1 class="hero-title">
+          <span data-i18n="hero.t1">Inteligencia logística</span><br/>
+          <span class="gradient-text" data-i18n="hero.t2">impulsada por IA</span>
+        </h1>
+        <p class="hero-tag" data-i18n="hero.tag">Mueve todo. Desperdicia nada.</p>
+        <p class="hero-sub" data-i18n="hero.sub">Optera transforma las operaciones logísticas mediante visibilidad en tiempo real, inteligencia predictiva, replanificación autónoma y soporte a la decisión impulsado por IA.</p>
+        <div class="hero-cta">
+          <a href="#centro" class="btn btn-primary btn-lg" data-i18n="hero.cta1">Abrir centro de mando</a>
+          <a href="#modulos" class="btn btn-ghost btn-lg" data-i18n="hero.cta2">Explorar módulos</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="hstat">
+            <div class="hstat-num gradient-text" data-count="27" data-suffix="%">27%</div>
+            <div class="hstat-lbl" data-i18n="hero.s1">menos kilómetros vacíos</div>
+          </div>
+          <div class="hstat">
+            <div class="hstat-num gradient-text" data-count="94" data-suffix="%">94%</div>
+            <div class="hstat-lbl" data-i18n="hero.s2">entregas a tiempo</div>
+          </div>
+          <div class="hstat">
+            <div class="hstat-num gradient-text" data-count="1.8" data-suffix=" M€">1.8 M€</div>
+            <div class="hstat-lbl" data-i18n="hero.s3">ahorro anual estimado</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== BENEFICIOS ===================== -->
+    <section class="section" id="beneficios">
+      <div class="sec-head">
+        <span class="kicker" data-i18n="ben.kicker">Beneficios</span>
+        <h2 class="sec-title" data-i18n="ben.title">Resultados operativos, no dashboards vacíos</h2>
+      </div>
+      <div class="grid grid-3">
+        <div class="card pad">
+          <div class="ico">🛰️</div>
+          <h3 data-i18n="ben.b1t">Visibilidad total en tiempo real</h3>
+          <p data-i18n="ben.b1d">Cada vehículo, entrega e incidencia en un único pulso operativo vivo. Detecta desviaciones antes de que cuesten dinero.</p>
+        </div>
+        <div class="card pad">
+          <div class="ico">🧠</div>
+          <h3 data-i18n="ben.b2t">Decisiones asistidas por IA</h3>
+          <p data-i18n="ben.b2d">El copiloto Optera AI explica qué pasa, por qué pasa y qué hacer — con métricas y acciones sugeridas, no solo gráficas.</p>
+        </div>
+        <div class="card pad">
+          <div class="ico">⚡</div>
+          <h3 data-i18n="ben.b3t">Replanificación autónoma</h3>
+          <p data-i18n="ben.b3d">Ante un incidente, Optera evalúa, reroutea y recalcula la ETA en segundos. Menos paradas, menos coste, menos CO₂.</p>
+        </div>
+        <div class="card pad">
+          <div class="ico">📉</div>
+          <h3 data-i18n="ben.b4t">Coste por entrega más bajo</h3>
+          <p data-i18n="ben.b4d">Solver real de rutas (haversine + nearest-neighbour + 2-opt) que recorta kilómetros vacíos y consumo de combustible.</p>
+        </div>
+        <div class="card pad">
+          <div class="ico">🔮</div>
+          <h3 data-i18n="ben.b5t">Anticipación al riesgo</h3>
+          <p data-i18n="ben.b5d">IA predictiva sobre tráfico, clima e incidencias que dispara alertas y recomendaciones antes del impacto.</p>
+        </div>
+        <div class="card pad">
+          <div class="ico">🌱</div>
+          <h3 data-i18n="ben.b6t">Sostenibilidad medible</h3>
+          <p data-i18n="ben.b6d">Toneladas de CO₂ evitadas y combustible optimizado, cuantificados por día y por ruta.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== MÓDULOS ===================== -->
+    <section class="section" id="modulos">
+      <div class="sec-head">
+        <span class="kicker" data-i18n="mod.kicker">Plataforma</span>
+        <h2 class="sec-title" data-i18n="mod.title">Ocho módulos, un solo cerebro operativo</h2>
+        <p class="sec-sub" data-i18n="mod.sub">Todos comparten el mismo motor de IA determinista sobre datos reales.</p>
+      </div>
+      <div class="grid grid-4 modgrid">
+        <div class="card pad mod"><span class="mod-n">01</span><h3 data-i18n="mod.m1t">Centro de Operaciones</h3><p data-i18n="mod.m1d">Pulso en vivo de flota, entregas e incidencias.</p></div>
+        <div class="card pad mod"><span class="mod-n">02</span><h3 data-i18n="mod.m2t">Motor de Optimización</h3><p data-i18n="mod.m2d">Solver real de rutas con coste, tiempo y ahorro.</p></div>
+        <div class="card pad mod"><span class="mod-n">03</span><h3 data-i18n="mod.m3t">Mapa Interactivo</h3><p data-i18n="mod.m3d">Red logística animada con hubs y vehículos.</p></div>
+        <div class="card pad mod"><span class="mod-n">04</span><h3 data-i18n="mod.m4t">IA Predictiva</h3><p data-i18n="mod.m4d">Tráfico, clima e incidencias con alertas.</p></div>
+        <div class="card pad mod"><span class="mod-n">05</span><h3 data-i18n="mod.m5t">Centro de Inteligencia</h3><p data-i18n="mod.m5d">Analítica avanzada y scores globales.</p></div>
+        <div class="card pad mod"><span class="mod-n">06</span><h3 data-i18n="mod.m6t">Optera AI</h3><p data-i18n="mod.m6d">Copiloto que analiza, explica y recomienda.</p></div>
+        <div class="card pad mod"><span class="mod-n">07</span><h3 data-i18n="mod.m7t">Replanificación Automática</h3><p data-i18n="mod.m7d">Reroute autónomo ante incidentes.</p></div>
+        <div class="card pad mod"><span class="mod-n">08</span><h3 data-i18n="mod.m8t">Simulador de Escenarios</h3><p data-i18n="mod.m8d">Gemelo digital para decisiones what-if.</p></div>
+      </div>
+    </section>
+
+    <!-- ===================== CASOS DE USO ===================== -->
+    <section class="section" id="casos">
+      <div class="sec-head">
+        <span class="kicker" data-i18n="case.kicker">Casos de uso</span>
+        <h2 class="sec-title" data-i18n="case.title">Diseñado para redes logísticas complejas</h2>
+      </div>
+      <div class="grid grid-3">
+        <div class="card pad usecase"><div class="ico">📦</div><h3 data-i18n="case.c1t">Última milla</h3><p data-i18n="case.c1d">Densifica rutas urbanas y cumple ventanas de entrega ajustadas reduciendo kilómetros vacíos.</p></div>
+        <div class="card pad usecase"><div class="ico">🚛</div><h3 data-i18n="case.c2t">Transporte de larga distancia</h3><p data-i18n="case.c2d">Optimiza cargas, descansos y combustible en corredores interurbanos.</p></div>
+        <div class="card pad usecase"><div class="ico">🏭</div><h3 data-i18n="case.c3t">Distribución multi-hub</h3><p data-i18n="case.c3d">Equilibra demanda entre centros logísticos y anticipa cuellos de botella.</p></div>
+        <div class="card pad usecase"><div class="ico">🛒</div><h3 data-i18n="case.c4t">E-commerce y retail</h3><p data-i18n="case.c4d">Absorbe picos de pedidos manteniendo SLA y coste por envío bajo control.</p></div>
+        <div class="card pad usecase"><div class="ico">❄️</div><h3 data-i18n="case.c5t">Cadena de frío</h3><p data-i18n="case.c5d">Prioriza rutas sensibles al tiempo y reduce el riesgo de rotura de cadena.</p></div>
+        <div class="card pad usecase"><div class="ico">🏗️</div><h3 data-i18n="case.c6t">Logística industrial</h3><p data-i18n="case.c6d">Coordina flotas pesadas y materiales con replanificación ante imprevistos.</p></div>
+      </div>
+    </section>
+
+    <!-- ===================== CENTRO DE MANDO (DEMO) ===================== -->
+    <section class="section center-sec" id="centro">
+      <div class="sec-head">
+        <span class="kicker" data-i18n="cc.kicker">Demo interactiva · sin instalación</span>
+        <h2 class="sec-title" data-i18n="cc.title">Centro de Mando Logístico en Tiempo Real</h2>
+        <p class="sec-sub" data-i18n="cc.sub">Inteligencia operativa para redes logísticas complejas. Datos simulados que se actualizan en vivo.</p>
+      </div>
+
+      <!-- Barra de estado global -->
+      <div class="statusbar glass-strong">
+        <div class="sb-item"><span class="dot dot-green"></span><span data-i18n="cc.net">Estado de Red</span><b id="sb-net">98.4%</b></div>
+        <div class="sb-item"><span class="dot dot-green"></span><span data-i18n="cc.ontime">Entregas a Tiempo</span><b id="sb-ontime">94%</b></div>
+        <div class="sb-item"><span class="dot dot-amber"></span><span data-i18n="cc.risk">Riesgos Activos</span><b id="sb-risk">3</b></div>
+        <div class="sb-item"><span class="dot dot-cyan"></span><span data-i18n="cc.savetoday">Ahorro Hoy</span><b id="sb-save">12.480 €</b></div>
+        <div class="sb-live"><span class="live-dot"></span><span data-i18n="cc.live">EN VIVO</span></div>
+      </div>
+
+      <!-- KPIs -->
+      <div class="kpi-grid">
+        <div class="kpi card"><div class="kpi-lbl" data-i18n="kpi.vehicles">Vehículos activos</div><div class="kpi-val" id="k-veh">248</div><div class="kpi-spark" data-spark="veh"></div></div>
+        <div class="kpi card"><div class="kpi-lbl" data-i18n="kpi.deliveries">Entregas hoy</div><div class="kpi-val" id="k-del">1.827</div><div class="kpi-spark" data-spark="del"></div></div>
+        <div class="kpi card"><div class="kpi-lbl" data-i18n="kpi.incidents">Incidencias abiertas</div><div class="kpi-val" id="k-inc">3</div><div class="kpi-spark" data-spark="inc"></div></div>
+        <div class="kpi card"><div class="kpi-lbl" data-i18n="kpi.savings">Ahorro generado</div><div class="kpi-val" id="k-sav">12.480 €</div><div class="kpi-spark" data-spark="sav"></div></div>
+        <div class="kpi card"><div class="kpi-lbl" data-i18n="kpi.fuel">Combustible optimizado</div><div class="kpi-val" id="k-fuel">3.140 L</div><div class="kpi-spark" data-spark="fuel"></div></div>
+        <div class="kpi card"><div class="kpi-lbl" data-i18n="kpi.co2">CO₂ evitado</div><div class="kpi-val" id="k-co2">1.8 T</div><div class="kpi-spark" data-spark="co2"></div></div>
+        <div class="kpi card"><div class="kpi-lbl" data-i18n="kpi.score">Operational Score</div><div class="kpi-val" id="k-score">94<span class="kpi-unit">/100</span></div><div class="kpi-spark" data-spark="score"></div></div>
+        <div class="kpi card"><div class="kpi-lbl" data-i18n="kpi.fleet">Utilización de flota</div><div class="kpi-val" id="k-util">81<span class="kpi-unit">%</span></div><div class="kpi-spark" data-spark="util"></div></div>
+      </div>
+
+      <!-- Mapa + panel operativo -->
+      <div class="center-grid">
+        <div class="card map-card">
+          <div class="card-bar"><h3 data-i18n="map.title">Mapa operativo · España</h3><span class="badge" id="map-routes">8 rutas activas</span></div>
+          <svg id="opmap" viewBox="0 0 600 520" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Mapa de red logística"></svg>
+          <div class="map-legend">
+            <span><i class="lg lg-hub"></i><span data-i18n="map.hub">Hub</span></span>
+            <span><i class="lg lg-veh"></i><span data-i18n="map.veh">Vehículo</span></span>
+            <span><i class="lg lg-inc"></i><span data-i18n="map.inc">Incidencia</span></span>
+          </div>
+        </div>
+
+        <div class="ops-col">
+          <div class="card pad ops-panel">
+            <div class="card-bar"><h3 data-i18n="ops.fleet">Estado de flota</h3></div>
+            <div class="bar-row"><span data-i18n="ops.moving">En ruta</span><div class="bar"><i style="width:72%"></i></div><b>72%</b></div>
+            <div class="bar-row"><span data-i18n="ops.loading">Cargando</span><div class="bar"><i style="width:16%"></i></div><b>16%</b></div>
+            <div class="bar-row"><span data-i18n="ops.idle">En base</span><div class="bar"><i style="width:12%"></i></div><b>12%</b></div>
+          </div>
+
+          <div class="card pad ops-panel">
+            <div class="card-bar"><h3 data-i18n="ops.alerts">Alertas predictivas</h3></div>
+            <ul class="feed" id="alert-feed"></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== OPTERA AI ===================== -->
+    <section class="section" id="optera-ai">
+      <div class="sec-head">
+        <span class="kicker" data-i18n="ai.kicker">Optera AI · Copiloto</span>
+        <h2 class="sec-title" data-i18n="ai.title">Pregunta. Entiende. Actúa.</h2>
+        <p class="sec-sub" data-i18n="ai.sub">El copiloto operativo analiza tus datos y responde con análisis, métricas y acciones.</p>
+      </div>
+      <div class="card ai-card">
+        <div class="ai-chat" id="ai-chat"></div>
+        <div class="ai-suggest" id="ai-suggest"></div>
+      </div>
+    </section>
+
+    <!-- ===================== REPLANIFICACIÓN ===================== -->
+    <section class="section" id="replanning">
+      <div class="sec-head">
+        <span class="kicker" data-i18n="rep.kicker">Replanificación automática</span>
+        <h2 class="sec-title" data-i18n="rep.title">De incidente a nueva ruta en segundos</h2>
+      </div>
+      <div class="card pad replan">
+        <div class="replan-flow" id="replan-flow">
+          <div class="rf-step" data-step="0"><span class="rf-ico">⚠️</span><b data-i18n="rep.f1">Accidente detectado</b></div>
+          <div class="rf-arrow">↓</div>
+          <div class="rf-step" data-step="1"><span class="rf-ico">🛣️</span><b data-i18n="rep.f2">Ruta afectada</b></div>
+          <div class="rf-arrow">↓</div>
+          <div class="rf-step" data-step="2"><span class="rf-ico">🧠</span><b data-i18n="rep.f3">Evaluación IA</b></div>
+          <div class="rf-arrow">↓</div>
+          <div class="rf-step" data-step="3"><span class="rf-ico">🧭</span><b data-i18n="rep.f4">Nueva ruta + ETA</b></div>
+        </div>
+        <button class="btn btn-primary" id="replan-run" data-i18n="rep.run">Simular incidente</button>
+        <div class="replan-cmp" id="replan-cmp" hidden>
+          <div class="cmp-col cmp-before">
+            <h4 data-i18n="rep.before">ANTES</h4>
+            <div class="cmp-row"><span data-i18n="rep.time">Tiempo</span><b>4 h 50 min</b></div>
+            <div class="cmp-row"><span data-i18n="rep.cost">Coste</span><b>612 €</b></div>
+            <div class="cmp-row"><span data-i18n="rep.emis">Emisiones</span><b>198 kg CO₂</b></div>
+          </div>
+          <div class="cmp-arrow gradient-text">→</div>
+          <div class="cmp-col cmp-after">
+            <h4 data-i18n="rep.after">DESPUÉS</h4>
+            <div class="cmp-row"><span data-i18n="rep.time">Tiempo</span><b class="good">3 h 38 min</b><em>-72 min</em></div>
+            <div class="cmp-row"><span data-i18n="rep.save">Ahorro</span><b class="good">141 €</b><em>-23%</em></div>
+            <div class="cmp-row"><span data-i18n="rep.emis">Emisiones</span><b class="good">152 kg CO₂</b><em>-46 kg</em></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SIMULADOR ===================== -->
+    <section class="section" id="simulator">
+      <div class="sec-head">
+        <span class="kicker" data-i18n="sim.kicker">Simulador de escenarios · Gemelo digital</span>
+        <h2 class="sec-title" data-i18n="sim.title">Decide con datos, no con intuición</h2>
+      </div>
+      <div class="card pad sim">
+        <div class="sim-controls">
+          <label class="sim-ctrl"><span data-i18n="sim.demand">Demanda</span><input type="range" id="s-demand" min="50" max="200" value="100"><output id="o-demand">100%</output></label>
+          <label class="sim-ctrl"><span data-i18n="sim.fleet">Tamaño de flota</span><input type="range" id="s-fleet" min="100" max="400" value="248"><output id="o-fleet">248</output></label>
+          <label class="sim-ctrl"><span data-i18n="sim.fuel">Precio combustible</span><input type="range" id="s-fuel" min="80" max="200" value="100"><output id="o-fuel">1.60 €/L</output></label>
+          <label class="sim-ctrl"><span data-i18n="sim.hubs">Centros logísticos</span><input type="range" id="s-hubs" min="2" max="8" value="5"><output id="o-hubs">5</output></label>
+          <label class="sim-ctrl"><span data-i18n="sim.orders">Volumen de pedidos</span><input type="range" id="s-orders" min="500" max="5000" value="1827" step="50"><output id="o-orders">1.827</output></label>
+        </div>
+        <button class="btn btn-primary" id="sim-run" data-i18n="sim.run">Simular escenario</button>
+        <div class="sim-results" id="sim-results">
+          <div class="sim-res"><span data-i18n="sim.rcost">Coste proyectado</span><b id="r-cost">—</b></div>
+          <div class="sim-res"><span data-i18n="sim.reff">Eficiencia</span><b id="r-eff">—</b></div>
+          <div class="sim-res"><span data-i18n="sim.rdelay">Retrasos</span><b id="r-delay">—</b></div>
+          <div class="sim-res"><span data-i18n="sim.rutil">Utilización</span><b id="r-util">—</b></div>
+          <div class="sim-res"><span data-i18n="sim.remis">Emisiones</span><b id="r-emis">—</b></div>
+        </div>
+        <div class="sim-reco glass" id="sim-reco" hidden></div>
+      </div>
+    </section>
+
+    <!-- ===================== TECNOLOGÍA ===================== -->
+    <section class="section" id="tecnologia">
+      <div class="sec-head">
+        <span class="kicker" data-i18n="tech.kicker">Tecnología</span>
+        <h2 class="sec-title" data-i18n="tech.title">Construido sobre un stack moderno</h2>
+      </div>
+      <div class="tech-grid">
+        <div class="tech glass">Next.js 16</div>
+        <div class="tech glass">React 19</div>
+        <div class="tech glass">TypeScript</div>
+        <div class="tech glass">TailwindCSS v4</div>
+        <div class="tech glass">Three.js · R3F</div>
+        <div class="tech glass">Framer Motion</div>
+        <div class="tech glass">GSAP</div>
+        <div class="tech glass">Node.js · Express</div>
+        <div class="tech glass">Prisma · SQLite</div>
+        <div class="tech glass">Motor IA determinista</div>
+      </div>
+      <div class="grid grid-3 arch">
+        <div class="card pad"><h3 data-i18n="tech.a1t">Solver de rutas real</h3><p data-i18n="tech.a1d">Haversine + nearest-neighbour + 2-opt sobre datos reales, no maquetas.</p></div>
+        <div class="card pad"><h3 data-i18n="tech.a2t">Motor de IA compartido</h3><p data-i18n="tech.a2d">Optimización, predicción y geo reutilizados por todos los módulos, con pulido LLM opcional y fallback seguro.</p></div>
+        <div class="card pad"><h3 data-i18n="tech.a3t">Listo para escalar</h3><p data-i18n="tech.a3d">SQLite en desarrollo, migración a PostgreSQL sin cambios de código.</p></div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACTO ===================== -->
+    <section class="section contact-sec" id="contacto">
+      <div class="card pad contact glass-strong">
+        <h2 class="sec-title" data-i18n="ct.title">¿Listo para mover todo y no desperdiciar nada?</h2>
+        <p class="sec-sub" data-i18n="ct.sub">Solicita una demostración guiada de Optera para tu red logística.</p>
+        <div class="hero-cta">
+          <a href="mailto:hola@optera.app?subject=Demo%20Optera" class="btn btn-primary btn-lg" data-i18n="ct.cta">Solicitar demo</a>
+          <a href="https://github.com/svetoslav1999/optera" class="btn btn-ghost btn-lg">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="foot-brand">
+      <svg width="22" height="22" viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="18" stroke="url(#og)" stroke-width="3.5" fill="none"/><circle cx="32" cy="32" r="6" fill="url(#og)"/></svg>
+      <b>OPTERA</b>
+    </div>
+    <p data-i18n="foot.tag">Inteligencia logística impulsada por IA · Mueve todo, desperdicia nada.</p>
+    <p class="foot-note" data-i18n="foot.note">Demo pública con datos simulados. Sin backend, funciona offline.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
