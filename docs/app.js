@@ -63,7 +63,35 @@
       "foot.tag":"Inteligencia logística impulsada por IA · Mueve todo, desperdicia nada.",
       "foot.note":"Demo pública con datos simulados. Sin backend, funciona offline.",
       "u.routesActive":"rutas activas",
-      "ai.thinking":"Analizando datos operativos…"
+      "ai.thinking":"Analizando datos operativos…",
+      "nav.agent":"Agente","nav.twin":"Digital Twin","nav.score":"Network Score",
+      "cc.decisions":"Decisiones Autónomas","cc.simulated":"Escenarios Simulados",
+      "mod.m9t":"Agente Autónomo","mod.m9d":"Detecta, analiza, decide y actúa sin intervención.",
+      "mod.m10t":"Decision Center","mod.m10d":"Historial de decisiones IA con impacto y trazabilidad.",
+      "mod.m11t":"Digital Twin","mod.m11d":"Réplica virtual para simular escenarios extremos.",
+      "mod.m12t":"Cost Intelligence","mod.m12d":"Análisis de coste por ruta, hub y vehículo.",
+      "ag.kicker":"Agente Autónomo Logístico",
+      "ag.title":"La red detecta. Analiza. Decide. Actúa.",
+      "ag.sub":"El agente observa continuamente el estado operativo y ejecuta decisiones óptimas de forma autónoma — con auditoría completa y capacidad de reversión.",
+      "ag.s1t":"Detección de evento","ag.s1d":"Accidente en A-2 km 47 · 14 rutas afectadas · retraso estimado +68 min",
+      "ag.s2t":"Análisis de impacto","ag.s2d":"3 entregas prioritarias afectadas · coste de inacción 4.200 € · 6 alternativas evaluadas",
+      "ag.s3t":"Decisión óptima","ag.s3d":"Reasignar 3 vehículos por N-II · confianza 94% · ahorro neto 2.480 €",
+      "ag.s4t":"Ejecución automática","ag.s4d":"Rutas actualizadas · conductores notificados · ETA recalculada · acción registrada",
+      "ag.r1":"Incidente detectado","ag.r2":"Rutas afectadas","ag.r3":"Vehículos reasignados",
+      "ag.r4":"ETA recuperada","ag.r5":"Ahorro generado","ag.r6":"Confianza IA","ag.r7":"Estado",
+      "ag.executed":"Ejecutada","ag.idle":"Pulsa para simular un ciclo del agente autónomo.","ag.run":"Ejecutar agente",
+      "dc.kicker":"Decision Center","dc.title":"Cada decisión, visible y trazable",
+      "dc.sub":"El Decision Center registra todas las decisiones autónomas de la IA: impacto económico, confianza, estado de ejecución y trazabilidad completa.",
+      "dc.s1":"Decisiones hoy","dc.s2":"Impacto económico","dc.s3":"Confianza media","dc.s4":"Ejecutadas",
+      "dc.col1":"Decisión","dc.col2":"Impacto","dc.col3":"Confianza","dc.col4":"Estado",
+      "dc.executed":"Ejecutada","dc.pending":"Pendiente","dc.reverted":"Revertida",
+      "tw.kicker":"Digital Twin · Gemelo digital","tw.title":"Simula el futuro antes de que ocurra",
+      "tw.sub":"El gemelo digital replica la red logística completa y proyecta el impacto de escenarios extremos con precisión cuantitativa.",
+      "tw.cost":"Coste proyectado","tw.eff":"Eficiencia","tw.delay":"Retrasos","tw.util":"Utilización","tw.emis":"Emisiones",
+      "ns.kicker":"Optera Network Score","ns.title":"El pulso de tu red en un solo número",
+      "ns.sub":"Índice global 0–100 calculado en tiempo real sobre SLA, eficiencia, coste, emisiones, utilización e incidencias.",
+      "ns.label":"Network Score",
+      "ns.sla":"SLA","ns.eff":"Eficiencia","ns.cost":"Coste","ns.emis":"Emisiones","ns.util":"Utilización","ns.inc":"Incidencias"
     },
     en: {
       "nav.benefits":"Benefits","nav.modules":"Modules","nav.cases":"Use cases",
@@ -122,7 +150,35 @@
       "foot.tag":"AI-powered logistics intelligence · Move everything, waste nothing.",
       "foot.note":"Public demo with simulated data. No backend, works offline.",
       "u.routesActive":"active routes",
-      "ai.thinking":"Analyzing operational data…"
+      "ai.thinking":"Analyzing operational data…",
+      "nav.agent":"Agent","nav.twin":"Digital Twin","nav.score":"Network Score",
+      "cc.decisions":"Autonomous Decisions","cc.simulated":"Scenarios Simulated",
+      "mod.m9t":"Autonomous Agent","mod.m9d":"Detects, analyzes, decides and acts without intervention.",
+      "mod.m10t":"Decision Center","mod.m10d":"AI decision log with impact and full traceability.",
+      "mod.m11t":"Digital Twin","mod.m11d":"Virtual replica to simulate extreme scenarios.",
+      "mod.m12t":"Cost Intelligence","mod.m12d":"Cost analysis per route, hub and vehicle.",
+      "ag.kicker":"Autonomous Logistics Agent",
+      "ag.title":"The network detects. Analyzes. Decides. Acts.",
+      "ag.sub":"The agent continuously monitors operational state and executes optimal decisions autonomously — with full audit trail and revert capability.",
+      "ag.s1t":"Event detection","ag.s1d":"Accident on A-2 km 47 · 14 routes affected · estimated delay +68 min",
+      "ag.s2t":"Impact analysis","ag.s2d":"3 priority deliveries affected · inaction cost €4,200 · 6 alternatives evaluated",
+      "ag.s3t":"Optimal decision","ag.s3d":"Reassign 3 vehicles via N-II · 94% confidence · net savings €2,480",
+      "ag.s4t":"Automatic execution","ag.s4d":"Routes updated · drivers notified · ETA recalculated · action logged",
+      "ag.r1":"Incident detected","ag.r2":"Routes affected","ag.r3":"Vehicles reassigned",
+      "ag.r4":"ETA recovered","ag.r5":"Savings generated","ag.r6":"AI confidence","ag.r7":"Status",
+      "ag.executed":"Executed","ag.idle":"Click to simulate an autonomous agent cycle.","ag.run":"Run agent",
+      "dc.kicker":"Decision Center","dc.title":"Every decision, visible and traceable",
+      "dc.sub":"The Decision Center logs all autonomous AI decisions: economic impact, confidence, execution status and full traceability.",
+      "dc.s1":"Decisions today","dc.s2":"Economic impact","dc.s3":"Avg confidence","dc.s4":"Executed",
+      "dc.col1":"Decision","dc.col2":"Impact","dc.col3":"Confidence","dc.col4":"Status",
+      "dc.executed":"Executed","dc.pending":"Pending","dc.reverted":"Reverted",
+      "tw.kicker":"Digital Twin","tw.title":"Simulate the future before it happens",
+      "tw.sub":"The digital twin replicates the full logistics network and projects the impact of extreme scenarios with quantitative precision.",
+      "tw.cost":"Projected cost","tw.eff":"Efficiency","tw.delay":"Delays","tw.util":"Utilization","tw.emis":"Emissions",
+      "ns.kicker":"Optera Network Score","ns.title":"Your network's pulse in one number",
+      "ns.sub":"Global 0–100 index computed in real time over SLA, efficiency, cost, emissions, utilization and incidents.",
+      "ns.label":"Network Score",
+      "ns.sla":"SLA","ns.eff":"Efficiency","ns.cost":"Cost","ns.emis":"Emissions","ns.util":"Utilization","ns.inc":"Incidents"
     }
   };
 
@@ -141,6 +197,10 @@
     document.getElementById("map-routes").textContent = `8 ${t("u.routesActive")}`;
     renderSuggest();
     seedChat();
+    renderDecisions();
+    renderTwinScenarios();
+    if (activeTwinId) selectTwinScenario(activeTwinId);
+    renderNetworkScore();
   }
   document.querySelectorAll(".lang-btn").forEach(b => b.addEventListener("click", () => applyLang(b.dataset.lang)));
 
@@ -175,7 +235,7 @@
 
   /* ---------------- LIVE KPIs ---------------- */
   const state = { veh:248, del:1827, inc:3, sav:12480, fuel:3140, co2:1.8, score:94, util:81,
-                  net:98.4, ontime:94, risk:3 };
+                  net:98.4, ontime:94, risk:3, decisions:7, simulated:4 };
   const sparks = {};
   function setVal(id, txt, flash){
     const el = $(id); if(!el) return;
@@ -220,6 +280,9 @@
     $("#sb-ontime").textContent = Math.round(state.ontime)+"%";
     $("#sb-risk").textContent = state.risk;
     $("#sb-save").textContent = eur(state.sav);
+    if ($("#sb-decisions")) $("#sb-decisions").textContent = state.decisions;
+    if ($("#sb-simulated")) $("#sb-simulated").textContent = state.simulated;
+    renderNetworkScore();
 
     pushSpark("veh",state.veh); pushSpark("del",state.del); pushSpark("inc",state.inc);
     pushSpark("sav",state.sav); pushSpark("fuel",state.fuel); pushSpark("co2",state.co2);
@@ -330,7 +393,22 @@
        h:"Recursos infrautilizados detectados",
        a:"5 vehículos operan por debajo del 50% de utilización y el hub de Sevilla tiene capacidad ociosa. Hay margen para absorber el pico de Madrid.",
        m:["5 vehículos <50%","Hub Sevilla 64% uso","+60 entregas posibles"],
-       r:["Reasignar 2 vehículos al pico de Madrid","Derivar 25 entregas al hub de Sevilla"]}
+       r:["Reasignar 2 vehículos al pico de Madrid","Derivar 25 entregas al hub de Sevilla"]},
+      {q:"¿Dónde estamos perdiendo dinero?",
+       h:"Análisis de pérdidas operativas",
+       a:"El mayor foco de pérdida es el retorno en vacío en el corredor Sevilla→Madrid (38% km vacíos). El segundo foco son 12 entregas con ventana incumplida que generan penalizaciones de SLA estimadas en 3.200 € semanales.",
+       m:["38% km vacíos retorno","3.200 €/sem en penalizaciones SLA","Hub Bilbao con 31% ociosidad"],
+       r:["Implementar carga de retorno Sevilla→Madrid","Renegociar ventanas de 3 clientes críticos"]},
+      {q:"¿Qué decisión tendría mayor impacto?",
+       h:"Decisión de mayor impacto operativo",
+       a:"Abrir un hub satélite en Zaragoza reduciría distancias medias un 19% en el corredor NE, recortaría costes variables en 21.000 €/mes y bajaría el CO₂ operativo un 14%.",
+       m:["-19% distancia media corredor NE","−21.000 €/mes coste variable","-14% CO₂ operativo"],
+       r:["Evaluar ubicaciones candidatas en Zaragoza/Lleida","Simular escenario en Digital Twin antes de decidir"]},
+      {q:"¿Qué ocurriría con demanda +40%?",
+       h:"Simulación: demanda +40%",
+       a:"Con la flota actual (+40% demanda), la utilización alcanzaría el 96%, generando retrasos medios de 42 min y un coste adicional de 38.400 €/semana. Se necesitan 28 vehículos adicionales o un hub extra para mantener el SLA.",
+       m:["Utilización 96% → colapso","Retraso medio +42 min","Coste adicional 38.400 €/sem"],
+       r:["Activar 8 vehículos de reserva inmediatamente","Simular apertura de hub en Digital Twin"]}
     ],
     en:[
       {q:"Why did efficiency drop?",
@@ -357,7 +435,22 @@
        h:"Underused resources detected",
        a:"5 vehicles run below 50% utilization and the Sevilla hub has idle capacity. There is room to absorb the Madrid spike.",
        m:["5 vehicles <50%","Sevilla hub 64% use","+60 deliveries possible"],
-       r:["Reassign 2 vehicles to the Madrid spike","Divert 25 deliveries to the Sevilla hub"]}
+       r:["Reassign 2 vehicles to the Madrid spike","Divert 25 deliveries to the Sevilla hub"]},
+      {q:"Where are we losing money?",
+       h:"Operational loss analysis",
+       a:"The biggest loss driver is empty-return miles on the Sevilla→Madrid corridor (38% empty km). The second driver is 12 deliveries with missed windows generating SLA penalties estimated at €3,200/week.",
+       m:["38% empty return km","€3,200/week in SLA penalties","Bilbao hub 31% idle"],
+       r:["Implement backhaul loading Sevilla→Madrid","Renegotiate windows for 3 critical clients"]},
+      {q:"Which decision has the biggest impact?",
+       h:"Highest-impact operational decision",
+       a:"Opening a satellite hub in Zaragoza would cut average distances by 19% on the NE corridor, reduce variable costs by €21,000/month and lower operational CO₂ by 14%.",
+       m:["-19% avg distance NE corridor","−€21,000/month variable cost","-14% operational CO₂"],
+       r:["Evaluate candidate sites in Zaragoza/Lleida","Simulate the scenario in Digital Twin first"]},
+      {q:"What if demand rises 40%?",
+       h:"Simulation: demand +40%",
+       a:"With the current fleet at +40% demand, utilization would hit 96%, generating average delays of 42 min and extra costs of €38,400/week. 28 additional vehicles or one extra hub are needed to maintain SLA.",
+       m:["Utilization 96% → saturation","Avg delay +42 min","Extra cost €38,400/week"],
+       r:["Activate 8 reserve vehicles immediately","Simulate hub opening in Digital Twin"]}
     ]
   };
   function renderSuggest(){
@@ -454,10 +547,187 @@
   const nav=$("#nav");
   addEventListener("scroll", ()=>{ nav.style.boxShadow = scrollY>20 ? "0 8px 40px -20px rgba(0,0,0,.8)" : "none"; });
 
+  /* ---------------- AUTONOMOUS AGENT ---------------- */
+  let agentRunning = false;
+  const agentBtn = $("#agent-run");
+  if (agentBtn) agentBtn.addEventListener("click", () => {
+    if (agentRunning) return;
+    agentRunning = true;
+    agentBtn.disabled = true;
+    const steps = [...document.querySelectorAll("#agent-flow .af-step")];
+    steps.forEach(s => { s.classList.remove("active","done"); });
+    $("#agent-result").style.display = "none";
+    $("#agent-idle").style.display = "flex";
+    let i = 0;
+    const advance = () => {
+      if (i > 0) { steps[i-1].classList.remove("active"); steps[i-1].classList.add("done"); }
+      if (i < steps.length) { steps[i].classList.add("active"); i++; setTimeout(advance, 800); }
+      else {
+        setTimeout(() => {
+          steps.forEach(s => s.classList.add("done"));
+          $("#agent-idle").style.display = "none";
+          $("#agent-result").style.display = "flex";
+          state.decisions = (state.decisions||7) + 1;
+          $("#sb-decisions").textContent = state.decisions;
+          agentRunning = false;
+          agentBtn.disabled = false;
+        }, 300);
+      }
+    };
+    advance();
+  });
+
+  /* ---------------- DECISION CENTER ---------------- */
+  const DECISIONS = {
+    es: [
+      { d:"Reroute OPT-109 Valencia→Murcia por incidente A-7", imp:"+2.480 €", conf:"94%", st:"executed" },
+      { d:"Reasignar vehículo V-014 al pico de Madrid (22%)", imp:"+1.120 €", conf:"88%", st:"executed" },
+      { d:"Activar hub Sevilla para derivar 25 entregas sur",   imp:"+940 €",  conf:"91%", st:"executed" },
+      { d:"Consolidar rutas Bilbao→Barcelona en 1 salida diaria", imp:"+3.200 €", conf:"86%", st:"executed" },
+      { d:"Adelantar 2 salidas Madrid a las 06:30 (baja congestión)", imp:"+780 €", conf:"79%", st:"pending" },
+      { d:"Revertir desvío temporal ruta R-22 (incidente resuelto)", imp:"—", conf:"99%", st:"reverted" },
+    ],
+    en: [
+      { d:"Reroute OPT-109 Valencia→Murcia due to A-7 incident", imp:"+€2,480", conf:"94%", st:"executed" },
+      { d:"Reassign vehicle V-014 to Madrid spike (+22%)", imp:"+€1,120", conf:"88%", st:"executed" },
+      { d:"Activate Sevilla hub to divert 25 south deliveries", imp:"+€940",  conf:"91%", st:"executed" },
+      { d:"Consolidate Bilbao→Barcelona routes into 1 daily run", imp:"+€3,200", conf:"86%", st:"executed" },
+      { d:"Advance 2 Madrid departures to 06:30 (low congestion)", imp:"+€780", conf:"79%", st:"pending" },
+      { d:"Revert temporary R-22 detour (incident resolved)", imp:"—", conf:"99%", st:"reverted" },
+    ]
+  };
+  function renderDecisions() {
+    const body = $("#dec-body"); if (!body) return;
+    const rows = DECISIONS[lang] || DECISIONS.es;
+    body.innerHTML = rows.map(r => {
+      const stLabel = r.st === "executed" ? t("dc.executed") : r.st === "pending" ? t("dc.pending") : t("dc.reverted");
+      return `<tr>
+        <td>${r.d}</td>
+        <td><span class="dec-impact${r.imp==="—"?" neg":""}">${r.imp}</span></td>
+        <td><span class="dec-conf">${r.conf}</span></td>
+        <td><span class="dec-status ${r.st}">${stLabel}</span></td>
+      </tr>`;
+    }).join("");
+  }
+
+  /* ---------------- DIGITAL TWIN ---------------- */
+  const TWIN_SCENARIOS = {
+    es: [
+      { id:"blackfriday", ico:"🛍️", name:"Black Friday",   tag:"+180% demanda",
+        desc:"La red bajo máxima presión: demanda x2.8, flota al límite, ventanas muy ajustadas.",
+        kpis:[{l:"Coste proyectado",v:"148.200 €",d:"+94%",neg:true},{l:"Eficiencia",v:"61%",d:"-22%",neg:true},{l:"Retrasos",v:"38 min",d:"+38 min",neg:true},{l:"Utilización",v:"97%",d:"+16%",neg:true},{l:"Emisiones",v:"4.8 T",d:"+167%",neg:true},{l:"Hubs necesarios",v:"8",d:"+3",neg:true}],
+        reco:"<b>IA recomienda:</b> activar 42 vehículos adicionales y abrir 3 hubs satélite con 6 semanas de antelación. Sin acción, el 31% de entregas incumpliría SLA." },
+      { id:"christmas",  ico:"🎄", name:"Navidad",          tag:"+140% pedidos",
+        desc:"Campaña navideña: pico sostenido 3 semanas, logística de última milla muy densa.",
+        kpis:[{l:"Coste proyectado",v:"121.400 €",d:"+59%",neg:true},{l:"Eficiencia",v:"68%",d:"-15%",neg:true},{l:"Retrasos",v:"24 min",d:"+24 min",neg:true},{l:"Utilización",v:"93%",d:"+12%",neg:true},{l:"Emisiones",v:"3.9 T",d:"+117%",neg:true},{l:"SLA previsto",v:"87%",d:"-7%",neg:true}],
+        reco:"<b>IA recomienda:</b> precontratar 28 vehículos estacionales y ampliar turno nocturno en Madrid y Barcelona 3 semanas antes del pico." },
+      { id:"strike",     ico:"✊", name:"Huelga transporte", tag:"-40% capacidad",
+        desc:"Huelga sectorial: pérdida del 40% de la flota durante 5 días hábiles.",
+        kpis:[{l:"Coste proyectado",v:"94.800 €",d:"+24%",neg:true},{l:"Eficiencia",v:"52%",d:"-31%",neg:true},{l:"Retrasos",v:"56 min",d:"+56 min",neg:true},{l:"Entregas canceladas",v:"18%",d:"+18%",neg:true},{l:"Emisiones",v:"2.1 T",d:"+17%",neg:true},{l:"SLA previsto",v:"71%",d:"-23%",neg:true}],
+        reco:"<b>IA recomienda:</b> priorizar las 340 entregas premium, contratar 12 vehículos externos de emergencia y activar protocolo de comunicación proactiva a clientes." },
+      { id:"hubclose",   ico:"🏭", name:"Cierre de hub",    tag:"Hub Valencia cerrado",
+        desc:"Cierre forzado del hub de Valencia por avería crítica de infraestructura.",
+        kpis:[{l:"Coste proyectado",v:"88.600 €",d:"+16%",neg:true},{l:"Eficiencia",v:"71%",d:"-12%",neg:true},{l:"Retrasos",v:"31 min",d:"+31 min",neg:true},{l:"Km adicionales",v:"+22%",d:"+22%",neg:true},{l:"Emisiones",v:"2.4 T",d:"+33%",neg:true},{l:"SLA previsto",v:"83%",d:"-11%",neg:true}],
+        reco:"<b>IA recomienda:</b> redistribuir el 100% de Valencia a Madrid (60%) y Barcelona (40%), activar ruta directa temporal Valencia→Murcia y notificar a 84 clientes afectados." },
+      { id:"fuel",       ico:"⛽", name:"Combustible +25%",  tag:"Diésel +0.40 €/L",
+        desc:"Subida repentina del precio del combustible: diésel pasa de 1.60 a 2.00 €/L.",
+        kpis:[{l:"Coste proyectado",v:"95.200 €",d:"+25%",neg:true},{l:"Eficiencia",v:"74%",d:"-9%",neg:true},{l:"Coste/entrega",v:"14.80 €",d:"+3.10 €",neg:true},{l:"Utilización",v:"84%",d:"+3%",neg:false},{l:"Emisiones",v:"1.9 T",d:"=",neg:false},{l:"Ahorro 2-opt",v:"12.400 €",d:"disponible",neg:false}],
+        reco:"<b>IA recomienda:</b> activar reoptimización 2-opt nocturna en las 10 rutas de mayor consumo, priorizar vehículos híbridos y revisar rentabilidad de 8 rutas largas." },
+    ],
+    en: [
+      { id:"blackfriday", ico:"🛍️", name:"Black Friday",    tag:"+180% demand",
+        desc:"Network under maximum pressure: demand x2.8, fleet at the limit, very tight windows.",
+        kpis:[{l:"Projected cost",v:"€148,200",d:"+94%",neg:true},{l:"Efficiency",v:"61%",d:"-22%",neg:true},{l:"Delays",v:"38 min",d:"+38 min",neg:true},{l:"Utilization",v:"97%",d:"+16%",neg:true},{l:"Emissions",v:"4.8 T",d:"+167%",neg:true},{l:"Hubs needed",v:"8",d:"+3",neg:true}],
+        reco:"<b>AI recommends:</b> activate 42 additional vehicles and open 3 satellite hubs 6 weeks in advance. Without action, 31% of deliveries would miss SLA." },
+      { id:"christmas",  ico:"🎄", name:"Christmas",         tag:"+140% orders",
+        desc:"Christmas campaign: sustained 3-week spike, very dense last-mile logistics.",
+        kpis:[{l:"Projected cost",v:"€121,400",d:"+59%",neg:true},{l:"Efficiency",v:"68%",d:"-15%",neg:true},{l:"Delays",v:"24 min",d:"+24 min",neg:true},{l:"Utilization",v:"93%",d:"+12%",neg:true},{l:"Emissions",v:"3.9 T",d:"+117%",neg:true},{l:"Expected SLA",v:"87%",d:"-7%",neg:true}],
+        reco:"<b>AI recommends:</b> pre-contract 28 seasonal vehicles and extend night shift in Madrid and Barcelona 3 weeks before the spike." },
+      { id:"strike",     ico:"✊", name:"Transport strike",  tag:"-40% capacity",
+        desc:"Sector-wide strike: 40% fleet loss over 5 business days.",
+        kpis:[{l:"Projected cost",v:"€94,800",d:"+24%",neg:true},{l:"Efficiency",v:"52%",d:"-31%",neg:true},{l:"Delays",v:"56 min",d:"+56 min",neg:true},{l:"Cancelled deliveries",v:"18%",d:"+18%",neg:true},{l:"Emissions",v:"2.1 T",d:"+17%",neg:true},{l:"Expected SLA",v:"71%",d:"-23%",neg:true}],
+        reco:"<b>AI recommends:</b> prioritize 340 premium deliveries, contract 12 emergency external vehicles and activate proactive customer comms." },
+      { id:"hubclose",   ico:"🏭", name:"Hub closure",       tag:"Valencia hub closed",
+        desc:"Forced closure of the Valencia hub due to critical infrastructure failure.",
+        kpis:[{l:"Projected cost",v:"€88,600",d:"+16%",neg:true},{l:"Efficiency",v:"71%",d:"-12%",neg:true},{l:"Delays",v:"31 min",d:"+31 min",neg:true},{l:"Extra km",v:"+22%",d:"+22%",neg:true},{l:"Emissions",v:"2.4 T",d:"+33%",neg:true},{l:"Expected SLA",v:"83%",d:"-11%",neg:true}],
+        reco:"<b>AI recommends:</b> redistribute 100% of Valencia to Madrid (60%) and Barcelona (40%), activate temporary direct Valencia→Murcia route and notify 84 affected customers." },
+      { id:"fuel",       ico:"⛽", name:"Fuel +25%",          tag:"Diesel +€0.40/L",
+        desc:"Sudden fuel price spike: diesel goes from €1.60 to €2.00/L.",
+        kpis:[{l:"Projected cost",v:"€95,200",d:"+25%",neg:true},{l:"Efficiency",v:"74%",d:"-9%",neg:true},{l:"Cost/delivery",v:"€14.80",d:"+€3.10",neg:true},{l:"Utilization",v:"84%",d:"+3%",neg:false},{l:"Emissions",v:"1.9 T",d:"=",neg:false},{l:"2-opt savings",v:"€12,400",d:"available",neg:false}],
+        reco:"<b>AI recommends:</b> run nightly 2-opt reoptimization on the 10 highest-consumption routes, prioritize hybrid vehicles and review profitability of 8 long-haul routes." },
+    ]
+  };
+
+  let activeTwinId = null;
+  function renderTwinScenarios() {
+    const container = $("#twin-scenarios"); if (!container) return;
+    const scenarios = TWIN_SCENARIOS[lang] || TWIN_SCENARIOS.es;
+    container.innerHTML = scenarios.map(s =>
+      `<div class="twin-scen${activeTwinId===s.id?" active":""}" data-tid="${s.id}">
+        <span class="twin-scen-ico">${s.ico}</span>
+        <div><div class="twin-scen-name">${s.name}</div><div class="twin-scen-tag">${s.tag}</div></div>
+      </div>`
+    ).join("");
+    container.querySelectorAll(".twin-scen").forEach(el =>
+      el.addEventListener("click", () => selectTwinScenario(el.dataset.tid))
+    );
+  }
+  function selectTwinScenario(id) {
+    activeTwinId = id;
+    state.simulated = (state.simulated||4) + 1;
+    $("#sb-simulated").textContent = state.simulated;
+    renderTwinScenarios();
+    const scenarios = TWIN_SCENARIOS[lang] || TWIN_SCENARIOS.es;
+    const s = scenarios.find(x => x.id === id); if (!s) return;
+    $("#tw-name").textContent = `${s.ico} ${s.name}`;
+    $("#tw-desc").textContent = s.desc;
+    const kpis = $("#twin-kpis");
+    kpis.innerHTML = s.kpis.map(k =>
+      `<div class="twin-kpi">
+        <div class="twin-kpi-val" style="color:${k.neg?"var(--amber)":"var(--lime)"}">${k.v}</div>
+        <div class="twin-kpi-lbl">${k.l}</div>
+        <div class="twin-kpi-delta ${k.neg?"neg":"pos"}">${k.d}</div>
+      </div>`
+    ).join("");
+    const reco = $("#twin-reco"); reco.hidden = false; reco.innerHTML = s.reco;
+  }
+
+  /* ---------------- NETWORK SCORE ---------------- */
+  const SCORE_SUBS_KEYS = ["sla","eff","cost","emis","util","inc"];
+  const SCORE_BASE = { sla:91, eff:85, cost:78, emis:82, util:81, inc:88 };
+  function calcNetworkScore(s) {
+    return Math.round((s.sla+s.eff+s.cost+s.emis+s.util+s.inc)/6);
+  }
+  function renderNetworkScore() {
+    const scoreState = { ...SCORE_BASE };
+    // Wiggle slightly with live state
+    scoreState.util = Math.round(clamp(state.util, 70, 95));
+    scoreState.sla  = Math.round(clamp(state.ontime, 85, 97));
+    const total = calcNetworkScore(scoreState);
+    const track = $("#score-ring-track");
+    const valEl = $("#score-main-val");
+    if (track) {
+      const circ = 2 * Math.PI * 72;
+      const filled = (total / 100) * circ;
+      track.setAttribute("stroke-dashoffset", circ - filled);
+    }
+    if (valEl) valEl.textContent = total;
+    const subsEl = $("#score-subs"); if (!subsEl) return;
+    subsEl.innerHTML = SCORE_SUBS_KEYS.map(k => {
+      const val = scoreState[k];
+      return `<div class="score-sub">
+        <div class="score-sub-head">
+          <span class="score-sub-name">${t("ns."+k)}</span>
+          <span class="score-sub-val">${val}</span>
+        </div>
+        <div class="score-sub-bar"><div class="score-sub-fill" style="width:${val}%"></div></div>
+      </div>`;
+    }).join("");
+  }
+
   /* ---------------- BOOT ---------------- */
   applyLang("es");
   buildMap();
-  for(let k in state) {} // noop
   // prime sparks
   Object.keys({veh:1,del:1,inc:1,sav:1,fuel:1,co2:1,score:1,util:1}).forEach(k=>{ sparks[k]=[]; });
   tickKPI(); tickKPI(); tickKPI();
@@ -465,4 +735,7 @@
   setInterval(tickKPI, 2200);
   setInterval(pushAlert, 4800);
   syncOut();
+  renderDecisions();
+  renderTwinScenarios();
+  renderNetworkScore();
 })();

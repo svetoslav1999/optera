@@ -54,9 +54,10 @@
     <nav class="nav-links" aria-label="Principal">
       <a href="#beneficios" data-i18n="nav.benefits">Beneficios</a>
       <a href="#modulos" data-i18n="nav.modules">Módulos</a>
-      <a href="#casos" data-i18n="nav.cases">Casos de uso</a>
       <a href="#centro" data-i18n="nav.center">Centro de Mando</a>
-      <a href="#tecnologia" data-i18n="nav.tech">Tecnología</a>
+      <a href="#agent" data-i18n="nav.agent">Agente</a>
+      <a href="#twin" data-i18n="nav.twin">Digital Twin</a>
+      <a href="#network-score" data-i18n="nav.score">Network Score</a>
     </nav>
 
     <div class="nav-actions">
@@ -145,7 +146,7 @@
     <section class="section" id="modulos">
       <div class="sec-head">
         <span class="kicker" data-i18n="mod.kicker">Plataforma</span>
-        <h2 class="sec-title" data-i18n="mod.title">Ocho módulos, un solo cerebro operativo</h2>
+        <h2 class="sec-title" data-i18n="mod.title">12 módulos, un solo cerebro operativo</h2>
         <p class="sec-sub" data-i18n="mod.sub">Todos comparten el mismo motor de IA determinista sobre datos reales.</p>
       </div>
       <div class="grid grid-4 modgrid">
@@ -156,7 +157,11 @@
         <div class="card pad mod"><span class="mod-n">05</span><h3 data-i18n="mod.m5t">Centro de Inteligencia</h3><p data-i18n="mod.m5d">Analítica avanzada y scores globales.</p></div>
         <div class="card pad mod"><span class="mod-n">06</span><h3 data-i18n="mod.m6t">Optera AI</h3><p data-i18n="mod.m6d">Copiloto que analiza, explica y recomienda.</p></div>
         <div class="card pad mod"><span class="mod-n">07</span><h3 data-i18n="mod.m7t">Replanificación Automática</h3><p data-i18n="mod.m7d">Reroute autónomo ante incidentes.</p></div>
-        <div class="card pad mod"><span class="mod-n">08</span><h3 data-i18n="mod.m8t">Simulador de Escenarios</h3><p data-i18n="mod.m8d">Gemelo digital para decisiones what-if.</p></div>
+        <div class="card pad mod"><span class="mod-n">08</span><h3 data-i18n="mod.m8t">Simulador de Escenarios</h3><p data-i18n="mod.m8d">Sliders what-if sobre demanda, flota y combustible.</p></div>
+        <div class="card pad mod"><span class="mod-n">09</span><h3 data-i18n="mod.m9t">Agente Autónomo</h3><p data-i18n="mod.m9d">Detecta, analiza, decide y actúa sin intervención.</p></div>
+        <div class="card pad mod"><span class="mod-n">10</span><h3 data-i18n="mod.m10t">Decision Center</h3><p data-i18n="mod.m10d">Historial de decisiones IA con impacto y trazabilidad.</p></div>
+        <div class="card pad mod"><span class="mod-n">11</span><h3 data-i18n="mod.m11t">Digital Twin</h3><p data-i18n="mod.m11d">Réplica virtual para simular escenarios extremos.</p></div>
+        <div class="card pad mod"><span class="mod-n">12</span><h3 data-i18n="mod.m12t">Cost Intelligence</h3><p data-i18n="mod.m12d">Análisis de coste por ruta, hub y vehículo.</p></div>
       </div>
     </section>
 
@@ -190,6 +195,8 @@
         <div class="sb-item"><span class="dot dot-green"></span><span data-i18n="cc.ontime">Entregas a Tiempo</span><b id="sb-ontime">94%</b></div>
         <div class="sb-item"><span class="dot dot-amber"></span><span data-i18n="cc.risk">Riesgos Activos</span><b id="sb-risk">3</b></div>
         <div class="sb-item"><span class="dot dot-cyan"></span><span data-i18n="cc.savetoday">Ahorro Hoy</span><b id="sb-save">12.480 €</b></div>
+        <div class="sb-item"><span class="dot dot-violet"></span><span data-i18n="cc.decisions">Decisiones Autónomas</span><b id="sb-decisions">7</b></div>
+        <div class="sb-item"><span class="dot dot-magenta"></span><span data-i18n="cc.simulated">Escenarios Simulados</span><b id="sb-simulated">4</b></div>
         <div class="sb-live"><span class="live-dot"></span><span data-i18n="cc.live">EN VIVO</span></div>
       </div>
 
@@ -307,6 +314,131 @@
       </div>
     </section>
 
+    <!-- ===================== AGENTE AUTÓNOMO ===================== -->
+    <section class="section" id="agent">
+      <div class="sec-head">
+        <span class="kicker" data-i18n="ag.kicker">Agente Autónomo Logístico</span>
+        <h2 class="sec-title" data-i18n="ag.title">La red detecta. Analiza. Decide. Actúa.</h2>
+        <p class="sec-sub" data-i18n="ag.sub">El agente observa continuamente el estado operativo y ejecuta decisiones óptimas de forma autónoma — con auditoría completa y capacidad de reversión.</p>
+      </div>
+      <div class="card pad">
+        <div class="agent-layout">
+          <div class="agent-flow" id="agent-flow">
+            <div class="af-step" data-step="0">
+              <div class="af-ico">🔍</div>
+              <div class="af-body"><div class="af-title" data-i18n="ag.s1t">Detección de evento</div><div class="af-detail" data-i18n="ag.s1d">Accidente en A-2 km 47 · 14 rutas afectadas · retraso estimado +68 min</div></div>
+            </div>
+            <div class="af-step" data-step="1">
+              <div class="af-ico">🧠</div>
+              <div class="af-body"><div class="af-title" data-i18n="ag.s2t">Análisis de impacto</div><div class="af-detail" data-i18n="ag.s2d">3 entregas prioritarias afectadas · coste de inacción 4.200 € · 6 alternativas evaluadas</div></div>
+            </div>
+            <div class="af-step" data-step="2">
+              <div class="af-ico">🎯</div>
+              <div class="af-body"><div class="af-title" data-i18n="ag.s3t">Decisión óptima</div><div class="af-detail" data-i18n="ag.s3d">Reasignar 3 vehículos por N-II · confianza 94% · ahorro neto 2.480 €</div></div>
+            </div>
+            <div class="af-step" data-step="3">
+              <div class="af-ico">⚡</div>
+              <div class="af-body"><div class="af-title" data-i18n="ag.s4t">Ejecución automática</div><div class="af-detail" data-i18n="ag.s4d">Rutas actualizadas · conductores notificados · ETA recalculada · acción registrada</div></div>
+            </div>
+          </div>
+          <div>
+            <div class="agent-result" id="agent-result" style="display:none">
+              <div class="ar-row"><span data-i18n="ag.r1">Incidente detectado</span><b>Accidente A-2 km 47</b></div>
+              <div class="ar-row"><span data-i18n="ag.r2">Rutas afectadas</span><b>14</b></div>
+              <div class="ar-row"><span data-i18n="ag.r3">Vehículos reasignados</span><b>3</b></div>
+              <div class="ar-row"><span data-i18n="ag.r4">ETA recuperada</span><b>-23 min</b></div>
+              <div class="ar-row"><span data-i18n="ag.r5">Ahorro generado</span><b>2.480 €</b></div>
+              <div class="ar-row"><span data-i18n="ag.r6">Confianza IA</span>
+                <div class="ar-conf"><div class="conf-bar"><div class="conf-fill" style="width:94%"></div></div><span class="conf-val">94%</span></div>
+              </div>
+              <div class="ar-row"><span data-i18n="ag.r7">Estado</span><span class="dec-status executed">✓ <span data-i18n="ag.executed">Ejecutada</span></span></div>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:12px;align-items:flex-start" id="agent-idle">
+              <p style="color:var(--mut);font-size:14px" data-i18n="ag.idle">Pulsa para simular un ciclo del agente autónomo.</p>
+              <button class="btn btn-primary" id="agent-run" data-i18n="ag.run">Ejecutar agente</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== DECISION CENTER ===================== -->
+    <section class="section" id="decisions">
+      <div class="sec-head">
+        <span class="kicker" data-i18n="dc.kicker">Decision Center</span>
+        <h2 class="sec-title" data-i18n="dc.title">Cada decisión, visible y trazable</h2>
+        <p class="sec-sub" data-i18n="dc.sub">El Decision Center registra todas las decisiones autónomas de la IA: impacto económico, confianza, estado de ejecución y trazabilidad completa.</p>
+      </div>
+      <div class="card">
+        <div class="dec-summary" style="padding:20px 20px 0">
+          <div class="dec-sum-item"><div class="dec-sum-val" id="dc-total">24</div><div class="dec-sum-lbl" data-i18n="dc.s1">Decisiones hoy</div></div>
+          <div class="dec-sum-item"><div class="dec-sum-val" id="dc-saving" style="color:var(--lime)">18.640 €</div><div class="dec-sum-lbl" data-i18n="dc.s2">Impacto económico</div></div>
+          <div class="dec-sum-item"><div class="dec-sum-val" id="dc-conf" style="color:var(--cyan)">91%</div><div class="dec-sum-lbl" data-i18n="dc.s3">Confianza media</div></div>
+          <div class="dec-sum-item"><div class="dec-sum-val" id="dc-exec" style="color:var(--violet)">22</div><div class="dec-sum-lbl" data-i18n="dc.s4">Ejecutadas</div></div>
+        </div>
+        <div style="overflow-x:auto;padding:20px">
+          <table class="dec-table" id="dec-table">
+            <thead><tr>
+              <th data-i18n="dc.col1">Decisión</th>
+              <th data-i18n="dc.col2">Impacto</th>
+              <th data-i18n="dc.col3">Confianza</th>
+              <th data-i18n="dc.col4">Estado</th>
+            </tr></thead>
+            <tbody id="dec-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== DIGITAL TWIN ===================== -->
+    <section class="section" id="twin">
+      <div class="sec-head">
+        <span class="kicker" data-i18n="tw.kicker">Digital Twin · Gemelo digital</span>
+        <h2 class="sec-title" data-i18n="tw.title">Simula el futuro antes de que ocurra</h2>
+        <p class="sec-sub" data-i18n="tw.sub">El gemelo digital replica la red logística completa y proyecta el impacto de escenarios extremos con precisión cuantitativa.</p>
+      </div>
+      <div class="card pad">
+        <div class="twin-layout">
+          <div class="twin-scenarios" id="twin-scenarios"></div>
+          <div class="twin-results">
+            <div class="twin-headline" id="twin-headline">
+              <h3 id="tw-name">—</h3>
+              <p id="tw-desc" style="color:var(--mut);font-size:14px">Selecciona un escenario</p>
+            </div>
+            <div class="twin-kpis" id="twin-kpis"></div>
+            <div class="twin-reco glass" id="twin-reco" hidden></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== NETWORK SCORE ===================== -->
+    <section class="section" id="network-score">
+      <div class="sec-head">
+        <span class="kicker" data-i18n="ns.kicker">Optera Network Score</span>
+        <h2 class="sec-title" data-i18n="ns.title">El pulso de tu red en un solo número</h2>
+        <p class="sec-sub" data-i18n="ns.sub">Índice global 0–100 calculado en tiempo real sobre SLA, eficiencia, coste, emisiones, utilización e incidencias.</p>
+      </div>
+      <div class="card pad">
+        <div class="score-layout">
+          <div class="score-ring-wrap">
+            <svg class="score-ring-svg" viewBox="0 0 180 180">
+              <circle cx="90" cy="90" r="72" fill="none" stroke="rgba(255,255,255,.06)" stroke-width="14"/>
+              <circle id="score-ring-track" cx="90" cy="90" r="72" fill="none"
+                stroke="url(#scoreGrad)" stroke-width="14" stroke-linecap="round"
+                stroke-dasharray="452.4" stroke-dashoffset="452.4"
+                transform="rotate(-90 90 90)"/>
+              <defs><linearGradient id="scoreGrad" x1="0" x2="1"><stop offset="0" stop-color="#21e1ff"/><stop offset="1" stop-color="#8b5cff"/></linearGradient></defs>
+              <text x="90" y="85" text-anchor="middle" font-family="Syne,sans-serif" font-weight="800" font-size="36" fill="#eaf0ff" id="score-main-val">—</text>
+              <text x="90" y="108" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="12" fill="#5c6788">/ 100</text>
+            </svg>
+            <div class="score-ring-lbl" data-i18n="ns.label">Network Score</div>
+          </div>
+          <div class="score-subs" id="score-subs"></div>
+        </div>
+      </div>
+    </section>
+
     <!-- ===================== TECNOLOGÍA ===================== -->
     <section class="section" id="tecnologia">
       <div class="sec-head">
@@ -324,6 +456,9 @@
         <div class="tech glass">Node.js · Express</div>
         <div class="tech glass">Prisma · SQLite</div>
         <div class="tech glass">Motor IA determinista</div>
+        <div class="tech glass">Agente Autónomo</div>
+        <div class="tech glass">Digital Twin Engine</div>
+        <div class="tech glass">Cost · Carbon Intelligence</div>
       </div>
       <div class="grid grid-3 arch">
         <div class="card pad"><h3 data-i18n="tech.a1t">Solver de rutas real</h3><p data-i18n="tech.a1d">Haversine + nearest-neighbour + 2-opt sobre datos reales, no maquetas.</p></div>
