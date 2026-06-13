@@ -45,7 +45,16 @@ Incluye:
 
 ## ✦ Capturas
 
-![Landing](screenshots/01-landing.png)
+> Capturas **reales** de la plataforma en ejecución. La landing estrena la
+> *Immersive Edition*: una escena **WebGL full-bleed** (red logística viva,
+> shaders GLSL, *hyperspace streaks* y horizonte holográfico) con **scroll
+> cinematográfico** — la cámara atraviesa la red a medida que desplazas.
+
+| Hero — red logística viva | Viaje — hyperspace + producto |
+|---|---|
+| ![Landing hero](screenshots/01-landing.png) | ![Landing travel](screenshots/01b-landing-travel.png) |
+
+![Horizonte holográfico](screenshots/01c-landing-grid.png)
 
 | Centro de Mando (demo) | Optera AI (demo) |
 |---|---|
